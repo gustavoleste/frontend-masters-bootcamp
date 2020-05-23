@@ -1,0 +1,69 @@
+/* My first CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+#myid {
+    color: purple;
+    font-weight: bold;
+}
+
+ol {
+    color: #000303;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 2rem;
+}
+
+a:visited {
+    color: green;    
+    font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+
+a.harvard {
+    color: maroon;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+h1, h2 , h3 {    
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
